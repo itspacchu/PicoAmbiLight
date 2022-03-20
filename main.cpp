@@ -1,10 +1,10 @@
+// based on https://github.com/adafruit/Adalight/tree/master/Arduino
+//
 #include<pico/stdio.h>
 #include<pico/stdlib.h>
 #include "PicoLed.hpp"
 
-#define DEBUG 1
-
-#define NUM_LEDS 10
+#define NUM_LEDS 51
 #define LED_DATA_PIN 0
 
 uint8_t prefix[] = {'A','d','a'};
